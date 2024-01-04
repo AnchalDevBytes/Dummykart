@@ -2,17 +2,19 @@ import React from "react";
 import { Button } from ".";
 import { addToCart } from "@/lib/features/cartSlice";
 import { useDispatch } from "react-redux";
+import Image from "next/image";
 
 const ProductCard = ({ product }) => {
 
   const dispatch = useDispatch();
+  const src = product?.thumbnail;
 
   return (
     <div className="max-w-sm md:max-w-full pb-5 md:h-full md:p-5 rounded-2xl flex flex-col md:flex-row gap-4 md:gap-1 overflow-hidden shadow-2xl bg-slate-950/90 text-white">
       <div className="h-48 w-full md:w-2/6 md:h-96 md:rounded-2xl">
         <img
           className="h-48 w-full md:rounded-2xl md:h-96 "
-          src={product?.thumbnail}
+          src={src}
           alt={product?.title}
         />
       </div>

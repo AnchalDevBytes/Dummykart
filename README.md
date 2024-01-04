@@ -7,6 +7,10 @@ The application implements a login process, token storage for authorization, pro
 
 The project is built using Next.js for the frontend, Redux Toolkit for state management, and Tailwind CSS for styling. The application has been successfully completed and deployed on Vercel.
 
+## Screenshot
+
+![Home](./src/assets/02HOme.png)
+
 ## Project Structure
 
 The project is organized into several components and features:
@@ -46,3 +50,9 @@ The application has been deployed on Vercel and is accessible at [Live Vercel De
 ```
 
 4. Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to view the application.
+
+## Extra Screenshots
+
+![Login](./src/assets/01login.png)
+
+![Cart](./src/assets/03Cart.png)

@@ -73,7 +73,7 @@ const LoginPage = () => {
           {buttonDisabled ? "no login" : "login"}
         </button>
         <div>
-          Don't have an accunt?{" "}
+          Don&apos;t have an accunt?
           <Link href="/signup">
             <span className="text-sky-600 ">Signup</span>
           </Link>

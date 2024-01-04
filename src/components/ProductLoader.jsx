@@ -1,16 +1,15 @@
 import React from "react";
 import { Button } from ".";
 import Link from "next/link";
+import Image from "next/image";
 
 const ProductLoader = () => {
   return (
     <div className="max-w-sm md:max-w-full pb-5 md:h-full md:p-5 animate-pulse rounded-2xl flex flex-col md:flex-row gap-4 md:gap-1 overflow-hidden shadow-2xl bg-slate-950/90 text-white">
       <div className="h-48 w-full md:w-2/5 md:h-96 md:rounded-2xl">
-        <img
+        <div
           className="h-48 w-full md:rounded-2xl md:h-96 text-white "
-          src="...Image Loading..."
-          alt=""
-        />
+        ></div>
       </div>
       <div className=" flex flex-col md:h-96 md:px-16 lg:px-24 md:py-8 gap-3 w-full md:w-3/5">
         <div className="px-6 flex flex-col gap-1 md:gap-2">
