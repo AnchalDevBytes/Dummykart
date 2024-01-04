@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Internshala Assignment - React JS Project
 
-## Getting Started
+## Project Overview
 
-First, run the development server:
+This project is a React JS application that fulfills the requirements outlined in Option 2 of the Internshala assignment.
+The application implements a login process, token storage for authorization, protected routes, product fetching, product search, price-based filtering, a shopping cart with count and total amount display, and an "Add to Cart" button on product cards.
 
+The project is built using Next.js for the frontend, Redux Toolkit for state management, and Tailwind CSS for styling. The application has been successfully completed and deployed on Vercel.
+
+## Project Structure
+
+The project is organized into several components and features:
+
+- **Authentication:** Implements login functionality using [dummyjson.com/docs/auth](https://dummyjson.com/docs/auth) for authentication. The login token is stored for authorization purposes.
+
+- **Protected Route:** The home page is a protected route, allowing only logged-in users to access it.
+
+- **Product Fetching:** Fetches products from [dummyjson.com/docs/products](https://dummyjson.com/docs/products) and displays them on the home page.
+
+- **Product Search:** Implements a search feature to filter products based on their names.
+
+- **Price Filtering:** Adds a filter option on the home page to filter products based on their prices.
+
+- **Shopping Cart:** Implements a shopping cart functionality with an "Add to Cart" button on product cards. Displays the cart count on the top and the total amount of the cart.
+
+## Deployment
+
+The application has been deployed on Vercel and is accessible at [Live Vercel Deployment](#). Please note that the actual link will be provided separately.
+
+## Instructions for Running the Project Locally
+
+1. Clone the repository to your local machine.
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+   git clone https://github.com/anchalraj31082004/Dummykart.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies
+```bash
+    cd Dummykart
+    npm install
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+3. Run the Developement server
+```bash
+    npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+4. Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to view the application.
