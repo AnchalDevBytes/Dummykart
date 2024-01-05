@@ -51,6 +51,10 @@ The application has been deployed on Vercel and is accessible at [Live Vercel De
 
 4. Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to view the application.
 
+## Note
+
+The deployed link on Vercel is not working as expected. After login, it takes more time to redirect to the home page, or it may take one or more tries to redirect. I'm currently searching for why it's not redirecting immediately after login, as it was working well in localhost. It would be great if you could set it up locally.
+
 ## Extra Screenshots
 
 ![Login](./src/assets/01login.png)

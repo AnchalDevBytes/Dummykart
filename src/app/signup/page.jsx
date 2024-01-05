@@ -13,7 +13,6 @@ const SignupPage = () => {
 
     const [buttonDisabled, setButtonDisabled] = useState(false)
     const [loading, setLoading] = useState(false)
-
     const router = useRouter()
 
     const onSignup = async () => {
